@@ -1,0 +1,50 @@
+.app-menu {
+  &-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--palette-secondary-dark);
+    color: var(--palette-main);
+    padding-top: 40px;
+    z-index: 100;
+
+    .container {
+      display: block;
+      height: auto;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    color: var(--palette-main);
+  }
+
+  &-list {
+    list-style: none;
+    font-family: var(--font-accent);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &.router-link-active {
+        opacity: 0.6;
+      }
+    }
+  }
+}

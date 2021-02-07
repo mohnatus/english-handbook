@@ -1,0 +1,47 @@
+@import './themes.scss';
+
+
+.app {
+  min-height: 100vh;
+  background-color: var(--palette-secondary);
+  color: var(--palette-third);
+
+  .container {
+    width: 100%;
+    max-width: 80rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin: auto;
+    font-size: 1rem;
+  }
+
+
+  &-header {
+    background: var(--palette-secondary-dark);
+    color: var(--palette-main-light);
+    & > .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: currentColor;
+    }
+  }
+  &-title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 0;
+    text-transform: uppercase;
+    font-family: var(--font-accent);
+  }
+  &-main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+

@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 
-import Page1 from '../containers/page1';
-import Page2 from '../containers/page2';
-import NotFound from '../containers/not-found';
+import IrregularVerbs from 'Containers/IrregularVerbs';
+import Tenses from 'Containers/Tenses';
+import NotFound from 'Containers/NotFound';
 
 Vue.use(Router);
 
@@ -11,19 +11,20 @@ export default new Router({
 	routes: [
 
 		{
-			path: '/page-1',
-      name: 'page-1',
-			component: Page1,
+			path: '/irregular-verbs',
+      name: 'irregular-verbs',
+			component: IrregularVerbs,
 		},
 		{
-			path: '/page-2',
-      name: 'page-2',
-			component: Page2,
+			path: '/tenses',
+      name: 'tenses',
+			component: Tenses,
 		},
+
     {
 			path: '/',
       name: 'home',
-			redirect: '/page-1'
+			redirect: '/tenses'
 		},
     {
 			path: '*',

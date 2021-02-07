@@ -1,0 +1,69 @@
+.verbs-page {
+  .search {
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: inherit;
+
+    input {
+      width: 100%;
+      padding: 0 0 0.5rem;
+
+      font: inherit;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--palette-main);
+      border: none;
+      border-bottom: 2px solid;
+      background: transparent;
+
+      &::placeholder {
+        color: var(--palette-main);
+        opacity: 0.5;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .actions {
+    margin-bottom: 1rem;
+  }
+
+  .top-button {
+    padding: 0;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--palette-third-dark);
+    color: var(--palette-main);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: var(--font-accent);
+    cursor: pointer;
+    transition: background 400ms ease-in-out;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+
+    &:active {
+      background: var(--palette-third);
+    }
+  }
+
+  .not-found {
+    color: var(--palette-main-light);
+    text-align: center;
+    padding: 1rem;
+  }
+}
