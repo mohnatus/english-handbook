@@ -2,7 +2,7 @@
   <div>
     <div class="tense-block">
       <div class="tense-construction">
-        <div class="tense-verb">will be + V<sub>ing</sub></div>
+        <div class="tense-verb sm">will be + V<sub>ing</sub></div>
       </div>
 
       <div class="case">
@@ -24,6 +24,18 @@
           situation.
           <br />
           The team's star player is injured and won't be playing on Saturday.
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="tense-block">
+      <div class="case">
+        <div class="title">Вопросы</div>
+        <div class="text">
+          When will you be having dinner?
+          <br>
+          We won't be having dinner, will we?
         </div>
       </div>
     </div>
