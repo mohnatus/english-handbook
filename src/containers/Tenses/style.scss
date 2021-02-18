@@ -105,37 +105,22 @@
     line-height: 1;
   }
 
-  &-cases {
-    list-style: none;
+
+  .case {
+    margin-bottom: 1rem;
   }
 
-  &-case {
-    margin-bottom: 1rem;
-
-    &__name {
-      font-weight: bold;
-      margin-bottom: 4px;
-    }
-
-    &__examples {
-      font-size: 0.85em;
-      opacity: 0.8;
-    }
+  .title {
+    font-weight: bold;
+    margin-bottom: 4px;
   }
 
-  &-phrase {
-    margin-bottom: 1rem;
-
-
-    h2 {
-      font-size: 1.2rem;
-      font-weight: bold;
-      font-family: var(--font-accent);
-    }
-
-    &__text {
-      font-size: 0.85rem;
+  .text {
+    font-size: 0.85em;
       opacity: 0.8;
-    }
+  }
+
+  .accent {
+    font-family: var(--font-accent);
   }
 }

@@ -5,62 +5,83 @@
         <div class="tense-verb">V</div>
         <div class="tense-auxiliary">will/shall</div>
       </div>
-      <ul class="tense-cases">
-        <li class="tense-case">
-          <div class="tense-case__name">Спонтанное решение</div>
-          <div class="tense-case__examples">
-            May I take your order? - I will have an orange juice, please.
-          </div>
-        </li>
-        <li class="tense-case">
-          <div class="tense-case__name">Обещание</div>
-          <div class="tense-case__examples">
-            I won't tell anyone. I promise.
-          </div>
-        </li>
-        <li class="tense-case">
-          <div class="tense-case__name">Просьба</div>
-          <div class="tense-case__examples">
-            Will you please turn down the volumne? I'm trying to read.
-          </div>
-        </li>
-        <li class="tense-case">
-          <div class="tense-case__name">Предсказание</div>
-          <div class="tense-case__examples">
-            Do you think Kate will pass the exam?
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="tense-block">
-        <div class="tense-phrases">
-          <div class="tense-phrase">
-            <h2>won't</h2>
-            <div class="tense-phrase__text">
-              Кто-то отказывается что-то делать (отрицание)
-              <br>
-              I gave her advice but she won't listen.
-              <br>
-              The car won't start.
-            </div>
-          </div>
-          <div class="tense-phrase">
-            <h2>Shall I...? Shall we...?</h2>
-            <div class="tense-phrase__text">
-              Узнать чужое мнение, предложить что-то
-              <br>
-              Shall I open the window? (= Do you want me to open it?)
-            </div>
-          </div>
-          <div class="tense-phrase">
-            <h2>, shall we?</h2>
-            <div class="tense-phrase__text">
-              "Хвостатые" вопросы с конструкцией Let's do something
-              <br>
-              Let's get some icecream, shall we?
-            </div>
-          </div>
+
+      <div class="case">
+        <div class="title">Спонтанное решение</div>
+        <div class="text">
+          May I take your order? - I will have an orange juice, please.
+          <br />
+          The door is open. I'll go and shut it.
         </div>
       </div>
+      <div class="case">
+        <div class="title">Обещание</div>
+        <div class="text">
+          I won't tell anyone. I promise.
+        </div>
+      </div>
+      <div class="case">
+        <div class="title">Просьба</div>
+        <div class="text">
+          Will you please turn down the volumne? I'm trying to read.
+        </div>
+      </div>
+      <div class="case">
+        <div class="title">Предсказание</div>
+        <div class="text">
+          Do you think Kate will pass the exam?
+        </div>
+      </div>
+
+      <div class="case">
+        <div class="title">
+          Кто-то отказывается что-то делать (отрицание) - won't
+        </div>
+        <div class="text">
+          <br />
+          I gave her advice but she won't listen.
+          <br />
+          The car won't start.
+        </div>
+      </div>
+
+      <div class="case">
+        <div class="title accent">
+          Узнать чужое мнение, предложить что-то - Shall I...? Shall we...?
+        </div>
+        <div class="text">
+          Shall I open the window? (= Do you want me to open it?)
+          <br />
+          I've got no money. What shall I do?
+          <br />
+          Shall we dance?
+        </div>
+      </div>
+      <div class="case">
+        <div class="title accent">
+          "Хвостатые" вопросы с конструкцией Let's do something - shall we?
+        </div>
+        <div class="text">
+          Let's get some icecream, shall we?
+        </div>
+      </div>
+    </div>
+
+    <div class="tense-block">
+      <div class="case">
+        <div class="title">Глагол to be</div>
+        <div class="title accent">
+          will do/will be
+        </div>
+      </div>
+    </div>
+
+    <div class="tense-block">
+      <div class="case">
+        <div class="title accent">
+          tomorrow, next week, in 3 days, in the future year
+        </div>
+      </div>
+    </div>
   </div>
 </template>

@@ -19,11 +19,11 @@
         </tr>
         <tr>
           <td>
-            <button @click="open('present', 'perfect continuous')"><span>Present<br>Perfect<br>Continuous</span></button>
+            <button @click="open('present', 'perfect-continuous')"><span>Present<br>Perfect<br>Continuous</span></button>
           </td>
-          <td><button @click="open('past', 'perfect continuous')"><span>Past<br>Perfect<br>Continuous</span></button></td>
+          <td><button @click="open('past', 'perfect-continuous')"><span>Past<br>Perfect<br>Continuous</span></button></td>
           <td>
-            <button @click="open('future', 'perfect continuous')"><span>Future<br>Perfect<br>Continuous</span></button>
+            <button @click="open('future', 'perfect-continuous')"><span>Future<br>Perfect<br>Continuous</span></button>
           </td>
         </tr>
       </table>
